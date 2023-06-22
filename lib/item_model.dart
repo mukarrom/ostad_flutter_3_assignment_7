@@ -1,7 +1,7 @@
 class Item {
-  late final String ItemName;
-  late final double ItemPrise;
-  late int quantity;
+  final String productName;
+  final double productPrice;
+  int quantity;
 
-  Item(this.ItemName, this.ItemPrise, this.quantity);
+  Item(this.productName, this.productPrice, this.quantity);
 }
